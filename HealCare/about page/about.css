@@ -1,0 +1,204 @@
+/* Global styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f5f5f5; /* Light gray background for the body */
+}
+
+.content {
+    max-width: 900px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* White background for the content */
+    border-radius: 10px; /* Rounded corners for the content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #f5f5f5;
+    margin-bottom: 10px; 
+    background-color: #209677;/* Add margin below the heading */
+    cursor: pointer;
+}
+
+h2 {
+    color: #209677;
+    margin-bottom: 15px;
+}
+
+.section-content {
+    display: flex;
+    align-items: flex-start; /* Align items at the start of the flex container */
+    margin-bottom: 30px; /* Add margin below each section */
+}
+
+.section-content img {
+    max-width: 100px; /* Set max width for images */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Add right margin for spacing */
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    flex: 1; /* Allow paragraph to grow and fill remaining space */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .content {
+        padding: 15px;
+    }
+
+    header img {
+        max-width: 80px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .section-content img {
+        max-width: 80px; /* Adjust image width for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    header img {
+        max-width: 60px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .section-content img {
+        max-width: 60px; /* Adjust image width for smaller screens */
+    }
+}
+
+/* Footer Styles */
+.Footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #209677;
+    color: #fff;
+    padding: 20px;
+    margin-top: 50px;
+    width: 1480px;
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Footer .FooterVerRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Footer .FooterVerCol {
+    flex-basis: 25%;
+    text-align: center;
+}
+
+.Footer .FooterVerCol .FooterVerColHead {
+    font-size: 18px;
+    margin-bottom: 15px; /* Default margin */
+}
+
+.Footer .FooterVerCol ul {
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 0;
+}
+
+.Footer .FooterVerCol ul li {
+    margin-bottom: 10px; /* Updated margin */
+    cursor: pointer;
+    transition: color 0.3s ease; /* Added for smooth color transition */
+    width: auto;
+}
+
+.Footer .FooterVerCol ul li a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Footer .FooterVerCol ul li a:hover {
+    color: #28bf96;
+}
+
+.Footer .FooterLast {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px; /* Adjusted margin-top */
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #fff;
+    margin: 20px 0 10px 0; /* Adjusted margin for the hr */
+}
+
+/* Hover effect for all list items in footer */
+.Footer .FooterVerCol ul li:hover {
+    color: #28bf96;
+}
+
+/* Copyright text styles */
+.FooterMess a {
+    color: #fff; /* White color */
+    text-decoration: none; /* No underline */
+    cursor: pointer;
+}
+
+.FooterMess a:hover {
+    color: #28bf96; /* Hover color */
+}
+
+
+
+  
+  

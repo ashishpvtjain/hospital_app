@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    /* background-image: url(./istockphoto.jpg); */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container img{
+    height: 100px;
+    cursor: pointer;
+}
+
+h2 {
+    margin-top: -50px;
+    text-align: center;
+    color: #209677;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #28bf96;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #209677;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    margin-top: -20px;
+    /* width: 30px; */
+}
+
+/* Footer Styles */
+.Footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #209677;
+    color: #fff;
+    padding: 20px;
+    margin-top: 50px;
+    width: 1480px;
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Footer .FooterVerRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Footer .FooterVerCol {
+    flex-basis: 25%;
+    text-align: center;
+}
+
+.Footer .FooterVerCol .FooterVerColHead {
+    font-size: 18px;
+    margin-bottom: 15px; /* Default margin */
+}
+
+.Footer .FooterVerCol ul {
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 0;
+}
+
+.Footer .FooterVerCol ul li {
+    margin-bottom: 10px; /* Updated margin */
+    cursor: pointer;
+    transition: color 0.3s ease; /* Added for smooth color transition */
+    width: auto;
+}
+
+.Footer .FooterVerCol ul li a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Footer .FooterVerCol ul li a:hover {
+    color: #28bf96;
+}
+
+.Footer .FooterLast {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px; /* Adjusted margin-top */
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #fff;
+    margin: 20px 0 10px 0; /* Adjusted margin for the hr */
+}
+
+/* Hover effect for all list items in footer */
+.Footer .FooterVerCol ul li:hover {
+    color: #28bf96;
+}
+
+/* Copyright text styles */
+.FooterMess a {
+    color: #fff; /* White color */
+    text-decoration: none; /* No underline */
+    cursor: pointer;
+}
+
+.FooterMess a:hover {
+    color: #28bf96; /* Hover color */
+}

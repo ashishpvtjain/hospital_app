@@ -1,0 +1,187 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #209677;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header img {
+    height: 100px;
+    cursor: pointer;
+  }
+  
+  header h1 {
+    margin-bottom: 1rem;
+    text-align: center;
+    flex-grow: 1;
+    align-items: center;
+    margin-left: -100px;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  .post-content {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text within post content */
+  }
+  
+  .post{
+    display: flex;
+    flex-direction: column;
+  }
+  .post-title {
+    margin-top: 50px;
+    color: #333;
+    height: 50px;
+    margin-bottom: 10px; /* Added margin below the title */
+  }
+  
+  .post-info {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px; /* Added margin below the meta info */
+  }
+  
+  .post-image {
+    max-width: 250px;
+    height: auto;
+    margin: 0 auto; /* Center the image horizontally */
+  }
+  
+  .post-text {
+    line-height: 1.6;
+    /* display: flex;
+    flex-direction: column; */
+    margin-top: 200px;
+    margin-left: 10px;
+    text-align: justify;
+  }
+  
+  .post-text .external-link,
+  .post-text .see-more-link {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    display: block; /* Ensure links are displayed as block elements */
+    margin-top: 10px; /* Add space between paragraphs and links */
+}
+  
+/* Footer Styles */
+.Footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #209677;
+  color: #fff;
+  padding: 20px;
+  margin-top: 50px;
+  width: 1480px;
+  position: relative;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Footer .FooterVerRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.Footer .FooterVerCol {
+  flex-basis: 25%;
+  text-align: center;
+}
+
+.Footer .FooterVerCol .FooterVerColHead {
+  font-size: 18px;
+  margin-bottom: 15px; /* Default margin */
+}
+
+.Footer .FooterVerCol ul {
+  padding-left: 0;
+  list-style-type: none;
+  margin-top: 0;
+}
+
+.Footer .FooterVerCol ul li {
+  margin-bottom: 10px; /* Updated margin */
+  cursor: pointer;
+  transition: color 0.3s ease; /* Added for smooth color transition */
+  width: auto;
+}
+
+.Footer .FooterVerCol ul li a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Footer .FooterVerCol ul li a:hover {
+  color: #28bf96;
+}
+
+.Footer .FooterLast {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 5px; /* Adjusted margin-top */
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #fff;
+  margin: 20px 0 10px 0; /* Adjusted margin for the hr */
+}
+
+/* Hover effect for all list items in footer */
+.Footer .FooterVerCol ul li:hover {
+  color: #28bf96;
+}
+
+/* Copyright text styles */
+.FooterMess a {
+  color: #fff; /* White color */
+  text-decoration: none; /* No underline */
+  cursor: pointer;
+}
+
+.FooterMess a:hover {
+  color: #28bf96; /* Hover color */
+}
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+

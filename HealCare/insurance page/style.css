@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #209677;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    height: 100px;
+    cursor: pointer;
+  }
+
+  header h1 {
+    margin-bottom: 1rem;
+    text-align: center;
+    flex-grow: 1;
+    align-items: center;
+    margin-left: -100px;
+  }
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.insurance-plan {
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    width: 300px;
+}
+
+.insurance-plan img {
+    width: 100%;
+    height: 200px;
+}
+
+/* #dentalInsurance img{
+    font-size: 300px;
+} */
+
+.plan-details {
+    padding: 20px;
+}
+
+.plan-details h2 {
+    color: #28bf96;
+}
+
+.plan-details ul {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Footer Styles */
+.Footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #209677;
+    color: #fff;
+    padding: 20px;
+    margin-top: 50px;
+    width: 1480px;
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Footer .FooterVerRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Footer .FooterVerCol {
+    flex-basis: 25%;
+    text-align: center;
+}
+
+.Footer .FooterVerCol .FooterVerColHead {
+    font-size: 18px;
+    margin-bottom: 15px; /* Default margin */
+}
+
+.Footer .FooterVerCol ul {
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 0;
+}
+
+.Footer .FooterVerCol ul li {
+    margin-bottom: 10px; /* Updated margin */
+    cursor: pointer;
+    transition: color 0.3s ease; /* Added for smooth color transition */
+    width: auto;
+}
+
+.Footer .FooterVerCol ul li a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Footer .FooterVerCol ul li a:hover {
+    color: #28bf96;
+}
+
+.Footer .FooterLast {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px; /* Adjusted margin-top */
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #fff;
+    margin: 20px 0 10px 0; /* Adjusted margin for the hr */
+}
+
+/* Hover effect for all list items in footer */
+.Footer .FooterVerCol ul li:hover {
+    color: #28bf96;
+}
+
+/* Copyright text styles */
+.FooterMess a {
+    color: #fff; /* White color */
+    text-decoration: none; /* No underline */
+    cursor: pointer;
+}
+
+.FooterMess a:hover {
+    color: #28bf96; /* Hover color */
+}
